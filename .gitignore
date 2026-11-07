@@ -1,0 +1,9 @@
+*.log
+.DS_Store
+.vscode/
+.idea/
+node_modules/
+.rojo/
+*.rbxl
+*.rbxlx
+!studio/*.rbxlx
