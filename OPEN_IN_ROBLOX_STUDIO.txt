@@ -1,0 +1,27 @@
+PROTEST PARTY v0.8.0 — ROBLOX STUDIO PLACE
+
+This package includes a native Roblox XML place file (.rbxlx).
+It does not require Rojo, a Rojo plugin, or a sync process.
+
+OPEN:
+1. Extract this ZIP to a folder.
+2. Open Roblox Studio.
+3. Use File > Open from File (or Open) and select:
+   ProtestParty_v0.8.0_Studio_Place.rbxlx
+4. Wait for the place to load. In Explorer, inspect:
+   ReplicatedStorage > Shared
+   ServerScriptService > Bootstrap > Services
+   StarterPlayer > StarterPlayerScripts
+5. Use File > Save to Roblox / Publish to Roblox As to publish a test experience.
+6. To create the binary .rbxl format, use File > Save to File As
+   and select Roblox Place Files (*.rbxl), if offered by your Studio version.
+
+IMPORTANT:
+- .rbxlx is Roblox Studio's editable XML place format. Studio can open it directly.
+- The binary .rbxl file is produced by Roblox Studio's own Save As operation;
+  this package does not pretend to have generated that binary format.
+- Before publishing, configure GameConfig.ModeratorUserIds.
+- Enable Studio Access to API Services only in a private test experience when
+  testing DataStores and MemoryStore.
+- Run a multi-client and multi-server test before public release.
+- The place has not been executed or compiled in Roblox Studio in this environment.
